@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeGame2UI", "LifeGame2\LifeGame2UI.csproj", "{C230A51D-1856-4A04-9193-8EA11549CF25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeGameCore", "LifeGameCore\LifeGameCore.csproj", "{9290BB48-06FA-418D-9808-14243956BF6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C230A51D-1856-4A04-9193-8EA11549CF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C230A51D-1856-4A04-9193-8EA11549CF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C230A51D-1856-4A04-9193-8EA11549CF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C230A51D-1856-4A04-9193-8EA11549CF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9290BB48-06FA-418D-9808-14243956BF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9290BB48-06FA-418D-9808-14243956BF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9290BB48-06FA-418D-9808-14243956BF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9290BB48-06FA-418D-9808-14243956BF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F843802A-DA12-4A28-930E-1865EE84BE8A}
+	EndGlobalSection
+EndGlobal
