@@ -1,5 +1,5 @@
-﻿using LifeGameCore;
-using LifeGameCore.GameComponents;
+﻿using LifeGame.Core;
+using LifeGame.Core.GameComponents;
 using System;
 using System.Collections.Generic;
 using System.Drawing;

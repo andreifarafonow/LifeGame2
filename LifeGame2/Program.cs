@@ -3,7 +3,7 @@ using System.Drawing;
 using System.IO;
 using System.Threading;
 using LifeGame.Services;
-using LifeGameCore;
+using LifeGame.Core;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 

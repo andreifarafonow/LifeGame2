@@ -1,10 +1,10 @@
 ﻿using GameCore.GameServices.ObjectsServices;
-using LifeGameCore.GameComponents;
+using LifeGame.Core.GameComponents;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LifeGameCore.Services.GameServices
+namespace LifeGame.Core.Services.GameServices
 {
     interface IGameObjectSetGenerator
     {

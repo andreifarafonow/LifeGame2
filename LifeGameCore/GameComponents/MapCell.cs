@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace LifeGameCore.GameComponents
+namespace LifeGame.Core.GameComponents
 {
     public class MapCell
     {

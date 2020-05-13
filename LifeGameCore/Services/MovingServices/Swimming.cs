@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Text;
 using GameCore.GameServices.ObjectsServices;
-using LifeGameCore.Services.GameServices;
+using LifeGame.Core.Services.GameServices;
 using Microsoft.Extensions.DependencyInjection;
 using System.Linq;
 
-namespace LifeGameCore.Services.MovingServices
+namespace LifeGame.Core.Services.MovingServices
 {
     class Swimming : Movement
     {

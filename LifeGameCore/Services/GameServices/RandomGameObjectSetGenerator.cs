@@ -1,12 +1,12 @@
 ﻿using GameCore.GameServices;
-using LifeGameCore.GameComponents;
-using LifeGameCore.Services.MovingServices;
+using LifeGame.Core.GameComponents;
+using LifeGame.Core.Services.MovingServices;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Text;
 
-namespace LifeGameCore.Services.GameServices
+namespace LifeGame.Core.Services.GameServices
 {
     class RandomGameObjectSetGenerator : IGameObjectSetGenerator
     {

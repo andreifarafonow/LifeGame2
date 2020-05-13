@@ -1,11 +1,11 @@
-﻿using LifeGameCore.GameComponents;
+﻿using LifeGame.Core.GameComponents;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 
-namespace LifeGameCore.Services.GameServices
+namespace LifeGame.Core.Services.GameServices
 {
     class DefaultMap : IMap
     {

@@ -1,14 +1,15 @@
 ﻿using GameCore.GameServices;
 using GameCore.GameServices.ObjectsServices;
-using LifeGameCore.GameComponents;
-using LifeGameCore.Services.GameServices;
-using LifeGameCore.Services.MovingServices;
+using LifeGame.DAL;
+using LifeGame.Core.GameComponents;
+using LifeGame.Core.Services.GameServices;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using Microsoft.EntityFrameworkCore;
 
-namespace LifeGameCore
+namespace LifeGame.Core
 {
     public class Game
     {
@@ -22,10 +23,13 @@ namespace LifeGameCore
             .AddSingleton(new Random())
             .AddSingleton<IGameObjectsContainer, ListGameObjectsContainer>()
             .AddSingleton<IGameObjectSetGenerator, RandomGameObjectSetGenerator>()
+            .AddDbContext<DefaultContext>()
             .BuildServiceProvider();
 
             ServiceProvider.GetService<IMap>().Initialize(size);
             ServiceProvider.GetService<IGameObjectSetGenerator>().GenerateSet(objectCount);
+
+            ServiceProvider.GetService<DefaultContext>().GameObjects.Add(new DAL.Entities.GameObject());
         }
 
         public IMap Map 

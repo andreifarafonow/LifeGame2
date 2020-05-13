@@ -1,4 +1,4 @@
-﻿using LifeGameCore.Services.GameServices;
+﻿using LifeGame.Core.Services.GameServices;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using GameCore.GameServices;
 using System.Linq;
 
-namespace LifeGameCore.Services.MovingServices
+namespace LifeGame.Core.Services.MovingServices
 {
     public abstract class Movement
     {

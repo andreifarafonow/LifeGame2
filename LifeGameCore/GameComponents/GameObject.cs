@@ -1,5 +1,5 @@
 ﻿using GameCore.GameServices;
-using LifeGameCore.Services.MovingServices;
+using LifeGame.Core.Services.MovingServices;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace LifeGameCore.GameComponents
+namespace LifeGame.Core.GameComponents
 {
     public class GameObject
     {

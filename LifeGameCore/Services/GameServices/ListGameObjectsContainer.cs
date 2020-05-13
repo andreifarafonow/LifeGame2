@@ -1,4 +1,4 @@
-﻿using LifeGameCore.GameComponents;
+﻿using LifeGame.Core.GameComponents;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
