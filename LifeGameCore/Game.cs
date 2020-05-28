@@ -28,8 +28,6 @@ namespace LifeGame.Core
 
             ServiceProvider.GetService<IMap>().Initialize(size);
             ServiceProvider.GetService<IGameObjectSetGenerator>().GenerateSet(objectCount);
-
-            ServiceProvider.GetService<DefaultContext>().GameObjects.Add(new DAL.Entities.GameObject());
         }
 
         public IMap Map 

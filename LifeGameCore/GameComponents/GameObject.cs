@@ -38,9 +38,9 @@ namespace LifeGame.Core.GameComponents
             
         }
 
-        public GameObject AddMovementMethod<T>() where T: Movement
+        public GameObject AddMovementMethod<T>() where T: Movement, new()
         {
-            var movement = System.Runtime.Serialization.FormatterServices.GetUninitializedObject(typeof(T)) as Movement;
+            var movement = new T();
 
             movementMethods.Add(movement);
 
